@@ -1,0 +1,438 @@
+@charset "utf-8";
+/*
+	CISC 3650 Spring 2022 Web Project
+    
+    To-Do-List Utility
+    Author: Hao Ren Yuan
+    Date: February 17, 2022 - March 10, 2022
+
+    Filename: visual_layout.css
+*/
+
+h1{
+    padding-left: 25%;
+    background-color: #2196F3;
+    color: white;
+}
+
+h2{
+    background-color: red;
+    opacity: 0.7;
+    border-radius: 50px 50px 50px 50px;
+}
+
+h3{
+    background-color: ivory;
+    color:black;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+h4{
+    background-color:#2196F3;
+    color:white;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+h5{
+    padding-left: 25%;
+    background-color: #2196F3;
+}
+
+p#message{
+    font-size: small;
+    display: inline;
+}
+
+a{
+    padding-left: 20%;
+    padding-bottom: 20%;
+}
+
+div.duplicate {
+    box-sizing: border-box;
+    top: 2%;
+    left: 72%;
+}
+
+div.duplicate1 {
+    box-sizing: border-box;
+    top: 2%;
+    left: 72%;
+}
+
+div.duplicate2 {
+    box-sizing: border-box;
+    top: 18%;
+    left: 81%; 
+}
+
+html{
+	height: 100%;
+	font-size: 14px;
+	background-image: url(cover2.png);
+    background-size: 100%;	 
+}
+
+div#timeHeading{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2196F3;
+    padding-top: 0px;
+}
+
+/* Style date */
+div#dateNow{
+    display: block;
+    position: absolute; 
+    background-color: transparent;
+    border: hidden;
+    color: blueviolet;
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+    top: 180px;
+    padding-left: 20px;
+    display: inline;
+ }
+
+p#creator{
+    padding-bottom: 0px;
+    color: maroon;
+    font-weight: bold;
+    padding-top: 50px;
+    border-color: maroon;
+    border-radius: 50px 50px 50px 0px;
+}
+p#creatorInfo{
+    font-style: italic;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+}
+
+/* Style the header input */
+#add{
+    margin: 0;
+    border-color: blueviolet;
+    border-radius: 0px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    cursor: url(pencil_cursor.png), auto;
+}
+
+
+#add2{
+    margin: 0;
+    border-color: blueviolet;
+    border-radius: 0px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    cursor: url(pencil_cursor.png), auto;
+}
+
+#add3{
+    margin: 0;
+    border-color: blueviolet;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    cursor: url(pencil_cursor.png), auto;
+}
+
+/* Style the "Add" button */
+.addButton {
+    padding: 12px;
+    width: 12.5%;
+    background: rgb(58, 2, 2);
+    color: rgb(255, 255, 255);
+    border: black blueviolet;
+    border-color:black blueviolet;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: url(add_cursor.png), auto;
+}
+
+.addButton:hover {
+    background-color: #2196F3;
+    opacity: 0.5;
+}
+
+/* Style the "Wipe" button */
+#wipe{
+    padding: 12px;
+    width: 12.5%;
+    background: rgb(58, 2, 2);
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    border: black blueviolet;
+    border-color:black blueviolet;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: url(LateStatus.png), auto;
+}
+
+#wipe:hover {
+    background-color: red;
+    opacity: 0.5;
+}
+
+/* Style the "Add" button on the advanced notepad */
+.addButton2 {
+    padding: 12px;
+    width: 12.5%;
+    background: rgb(58, 2, 2);
+    color: rgb(255, 255, 255);
+    border: black blueviolet;
+    border-color:black blueviolet;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: url(add_cursor.png), auto;
+}
+
+.addButton2:hover {
+    background-color: #2196F3;
+    opacity: 0.5;
+}
+
+/* Style the "Wipe" button on the advanced notepad */
+#wipe2{
+    padding: 12px;
+    width: 12.5%;
+    background: rgb(58, 2, 2);
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    border: black blueviolet;
+    border-color:black blueviolet;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: url(LateStatus.png), auto;
+}
+
+#wipe2:hover {
+    background-color: red;
+    opacity: 0.5;
+}
+  
+  /* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 8px 12px 40px;
+    background: #2196F3;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.2s;
+    color: white;
+    border-radius: 0px;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Set all odd list items to a different color (looseleaf-stripes) */
+ul li:nth-child(odd) {
+    background: #2196F3;
+    opacity: 0.7;
+    color: black;
+    
+}
+
+ul li ul#listing3 {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 8px 12px 40px;
+    background: #14609e;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.2s;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li.checked,ul.checked,div.duplicate2 ul li.checked,
+ul#listing li .form-check-input.checked,
+.form-check-input.checked,ul#listing2.checked,ul#listing3 li .form-check-input.checked {
+    right: 8px;
+    background: #6deb97;
+    opacity: 0.8;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    text-decoration: line-through; 
+}
+
+#flexCheckDefault{
+    padding: 0px ;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(0, 47, 255);
+    border-style: solid;
+    font-weight: bold;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+ul li#DueDate, ul li.DueDate{
+    padding: 12px 16px 12px 16px;
+    flex-direction: column;
+
+}
+
+/* Display placeholder name */
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: rgb(0, 47, 255);
+    margin-right: 0.5em;
+  }
+  
+input[type="date"]:focus:before,input[type="date"]:valid:before {
+    content: "";
+  }
+
+/* Style priority selector */
+.priority{
+    display: inline-block;
+}
+
+div#setSelector{
+    padding: 12px 16px 12px 16px;
+    flex-direction: column;
+}
+
+
+/* Style the close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background-image: url(bookmark.png);
+}
+  
+.close:hover {
+    cursor: url(trash_icon.png),auto;
+    background-color: red;
+    opacity: 0.4;
+    color: white;
+}
+
+/* Style the notepad header*/
+#header {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+
+#header2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+
+#pad {
+    position: absolute;
+    /*padding-left: 50px;*/
+    z-index: 9;
+    background-color: #ebe26d;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+#pad2 {
+    position: absolute;
+    /*padding-left: 50px;*/
+    z-index: 9;
+    background-color: #ebe26d;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+#notepad{
+    font-weight: bold;
+    text-align: center;
+}
+
+#notepad2{
+    font-weight: bold;
+    text-align: center;
+}
+
+#input{
+    background-color: #ebe26d;
+    border: 1px solid #ebe26d;
+}
+
+#input2{
+    background-color: #ebe26d;
+    border: 1px solid #ebe26d;
+    padding: 0px 0px 0px 0px;
+}
+
+#input:hover{
+    cursor: url(pencil_cursor.png), auto;
+    border: 1px dashed #6deb97;
+}
+
+#input2:hover{
+    cursor: url(pencil_cursor.png), auto;
+    border: 1px dashed #6deb97;
+}
+
+body{
+	background: white;
+    margin-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+    padding-top: 1%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+    padding-bottom: 25%;
+	min-height: 100%;
+}
+
