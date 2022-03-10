@@ -14,7 +14,7 @@ Affordance:
 - [x] Allow user to create tasklist or subtask list with color priority and set due date functionality.
 
 Constraint:
-- [x] Created subtask lists appears under the first subtask list meaning users can't create subtasks under a specific super task besides the first one.
+- [x] Created subtask lists appears under the first super task list meaning users can't create subtasks under a specific super task besides the first one.
 
 Part A: Core Tasks
 - [x] 1.) Create a website using HTML and Bootstrap (use the starter template and include the
