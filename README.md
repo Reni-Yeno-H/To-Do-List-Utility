@@ -46,7 +46,8 @@ individually OR checked off /deleted together with the super-task. (1 pt)
 ## List of unintentional minor bug(s):<br />
 1.) Advanced Notepad does not have cross out function.<br />
 2.) Due Date calculation only works for the first item and will stay the same unchanged.<br />
-3.) Subtask only works correctly for the first item. (as in any subtasks input get added in the first super task)<br />
-4.) Github pages either doesn't allow notepad to be draggable or the response time for it work are long and random.<br />
+3.) Subtask only works correctly for the first item (as in any subtasks input gets added to the first super task)<br />
+4.) Subtask button doesn't appear in the advanced notepad after creating task.
+5.) Github pages either doesn't allow notepad to be draggable or the response time for it work are long and random.<br />
 
 ## To use my website, click [here](https://reni-yeno-h.github.io/To-Do-List-Utility/).
